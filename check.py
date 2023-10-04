@@ -16,9 +16,9 @@ for file in listing:
   k=str(file)
   print(file)
   for p in k:
-    if p=='.':
+    if p == '.':
         break
-    h=h+p
+    h = h+p
     
   d.append(h)
   h=""
